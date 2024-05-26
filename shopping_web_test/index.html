@@ -57,9 +57,42 @@
           <a href="#">Tất cả</a>
         </div>
 
-        <div id="products"></div>
+        <div style="border: 10px solid red" id="products"></div>
+        <h1>The Element Object</h1>
+        <h2>The className Property</h2>
+
+        <div id="myDIV" class="myStyle">
+          <p>I am myDIV.</p>
+        </div>
+
+        <p>The value of the class attribute of "myDIV" is:</p>
+        <p id="demo"></p>
       </div>
     </div>
     <script src="app.js" type="module"></script>
   </body>
 </html>
+
+<!-- handling request commit when pull code to the changed sourrce code -->
+<!-- git add shopping_web_test/app.js -->
+<!-- git add shopping_web_test/index.html -->
+<!-- git add shopping_web_test/utils.js -->
+<!-- git commit -m "Fixed bugs in shopping web test files" -->
+<!-- git pull -->
+
+<!-- git push issues: -->
+<!-- The error message "fatal: remote origin already exists" means you're trying to add a remote named "origin" that already exists in your local Git repository. Here's how to fix it:
+Verify Existing Remote:
+
+1.Use the command git remote -v to list all configured remotes and their URLs. This will help you confirm if there's an existing "origin" and see where it points to.
+
+Remove Existing Remote (if necessary):
+
+2.If the existing "origin" points to the wrong repository or you want to use the new URL, remove it with:
+git remote rm origin
+then:
+3.Add the New Remote:
+After removing the old "origin" (if needed), use the original command to add the new remote:
+
+
+git remote add origin https://github.com/Lamtuangiabao/Minmain-Long.git -->

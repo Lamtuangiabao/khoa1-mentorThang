@@ -94,7 +94,7 @@ function login(username, password) {
   for (let i = 0; i < users.length; i++) {
     if (username == users[i].username && password == users[i].password) {
       console.log("Đăng nhập thành công");
-      return;
+      return; //return để nó không chạy tiếp dến hết vòng lặp
     }
   }
   console.log("Sai username hoặc password !");

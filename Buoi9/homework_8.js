@@ -44,7 +44,7 @@
 // }
 
 let dtb = 9;
-
+//thử xài switch case xem như thế nào
 if (dtb < 5) {
   console.log("Hạng D");
 } else if (dtb < 7) {
